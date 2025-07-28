@@ -1,0 +1,15 @@
+//Activity 1
+
+void main() {
+  dynamic name = 'Alice!';
+  print ('Welcome,' + name + 'to the console');
+    
+}
+    
+void main() {
+  dynamic name = 'Alice';
+  name = 25;
+  print ("Welcome, $name!");
+}
+
+.//Base on my understanding the dynamic is use to command if the statement of your code they integer or int, and dynamic is a special type
