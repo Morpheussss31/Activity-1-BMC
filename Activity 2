@@ -1,0 +1,21 @@
+Activity 2
+
+void main() {
+  double total = calculatePerimeter(10,5,false);
+  print ('The Result for a rectangle ' + total.toString());
+  
+  total = calculatePerimeter(7,5,true);
+  print ('The Result for a Square ' + total.toString());
+}
+
+double calculatePerimeter(double height,double width,bool isRectangle){
+  double perimeter;
+  
+  if (isRectangle) {
+    perimeter = (2 * (width + height));
+  }
+  else {
+    perimeter = 4 * width;
+  }
+  return perimeter;
+}
